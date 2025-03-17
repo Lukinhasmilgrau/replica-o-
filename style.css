@@ -1,32 +1,50 @@
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f0f4f8;
+img {
+    width: 300px;
+    justify-content: center;
 }
 
-img {
-    height: 230px;
+img p {
+    display: inline-block;
 }
+
 .container {
     display: flex;
-    padding: 20px;
+    gap: 70px;
+    margin-bottom: 20px;
+}
+.container2 {
+    display: flex;
+    gap: 70px;
+    margin-bottom: 20px;
+    
+}
+.container3 {
+    display: flex;
+    gap: 70px;
+    
 }
 
-h2{
-    width: ;
+.principal {
+    background-color: rgb(164, 202, 255);
+    width: 1300px;
+    height: 290px;
 }
+
 .flex {
     display: flex;
 }
 
-
-.robot-image {
-    width: 100px;
-    height: auto;
+section {
+    gap: 60px;
 }
 
-.options {
-    background-color: blue;
-    color: white;
+.status {
+    width: 500px;
+    background-color: rgb(164, 202, 255);
+    gap: 70px;
 }
+
+.texto {
+    color: rgb(7, 96, 151);
+}
+
