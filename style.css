@@ -1,11 +1,10 @@
 img {
     width: 300px;
     justify-content: center;
+    
 }
 
-img p {
-    display: inline-block;
-}
+
 
 .container {
     display: flex;
@@ -16,7 +15,7 @@ img p {
     display: flex;
     gap: 70px;
     margin-bottom: 20px;
-    
+    color: aqua;
 }
 .container3 {
     display: flex;
@@ -28,6 +27,7 @@ img p {
     background-color: rgb(164, 202, 255);
     width: 1300px;
     height: 290px;
+    border-radius: 15px;
 }
 
 .flex {
@@ -42,9 +42,9 @@ section {
     width: 500px;
     background-color: rgb(164, 202, 255);
     gap: 70px;
+    border-radius: 15px;
 }
 
 .texto {
     color: rgb(7, 96, 151);
 }
-
